@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="cuerpo">
 				<div class="seccionPrincipal">
 					<div class="persona">
-						<img src="" alt="Nombre" title="descripcion">
+						<img src="<?php echo base_url(); ?>recursos/img/vloggerProfile/3.jpg" alt="Nombre" title="descripcion">
 					</div>
 					<div class="videoPrincipal">
 						<embed src="https://www.youtube.com/v/tgbNymZ7vqY">

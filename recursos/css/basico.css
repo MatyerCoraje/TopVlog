@@ -20,7 +20,7 @@
 	margin-top:-50px;  
 	padding:5px;
 }
-.companyName{ 
+.companyName{
 	font-family: 'Mali', cursive;
 	color: rgb(247, 59, 59);
 	fill: rgb(10, 10, 10);
@@ -60,12 +60,22 @@
 }
 .seccionPrincipal{
 	width: 380px;
-	height: 180px;
-	background-color: #e04545;
+	height: 150px; 
 	margin: 10px;
-	padding: 14px;+
+	padding: 14px;
+}
+.videoPrincipal{
+	overflow: hidden;
 }
 .videoPrincipal embed{
 	width: 220px;
 	height: 150px;
+}
+.persona{
+	float: left;
+	overflow: hidden;
+}
+.persona img{ 
+	width: 149px; 
+	margin-right: 8px;
 }
