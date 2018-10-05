@@ -63,6 +63,10 @@
 	height: 150px; 
 	margin: 10px;
 	padding: 14px;
+	overflow: hidden;
+	float: left;
+	border-style: solid;
+    border-width: 1	px;
 }
 .videoPrincipal{
 	overflow: hidden;
@@ -73,9 +77,13 @@
 }
 .persona{
 	float: left;
-	overflow: hidden;
+	overflow: hidden; 
 }
 .persona img{ 
 	width: 149px; 
-	margin-right: 8px;
+	margin-right: 8px; 
+    border-radius: 76px;
+    box-shadow: 2px 0px 4px #165067;
+	margin-top: 2px;
+	margin-left: 2px;
 }
